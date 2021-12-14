@@ -1,16 +1,8 @@
 import React from 'react'
 
-const Menu = (props) => {
+const Menu = ({list1, list2, list3, list4, list5, list6}) => {
     return (
-       <h2> <ul> {props.list1} 
-        {props.list2}
-        {props.list3}
-        {props.list4}
-        {props.list5}
-        {props.list6}
-        </ul>
-        </h2>
-        
+       <h2> <ul> {list1}  {list2} {list3} {list4} {list5} {list6} </ul> </h2>   
     )
 }
 

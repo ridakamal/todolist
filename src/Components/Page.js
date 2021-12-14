@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Page = (props) => {
+const Page = ({title, subtitle}) => {
     return (
         <div>
-            <h1> {props.title} </h1>
-            <h2 style= {{ fontStyle: "italic" }}> {props.subtitle} </h2>
+            <h1> {title} </h1>
+            <h2 style= {{ fontStyle: "italic" }}> {subtitle} </h2>
         </div>
     )
 }

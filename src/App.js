@@ -1,5 +1,6 @@
 
-import './App.css';
+import reactDom from 'react-dom';
+import React from 'react';
 import Menu from './Components/Menu';
 import Page from './Components/Page';
 

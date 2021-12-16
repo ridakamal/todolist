@@ -17,6 +17,7 @@ function App() {
       <Menu list4 = 'Workout' />
       <Menu list5 = 'Meditate' />
       <Menu list6 = 'sleep' />
+      <Menu list7 = 'repeat' />
       </div>
     </>
   );
